@@ -1,0 +1,33 @@
+{
+  "name": "webpack-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "babel": "%cd%/src/greeting.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CRGavrila/webpack-tutorial.git"
+  },
+  "keywords": [
+    "webpack",
+    "javascript"
+  ],
+  "author": "crgavrila",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CRGavrila/webpack-tutorial/issues"
+  },
+  "homepage": "https://github.com/CRGavrila/webpack-tutorial#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.2.0"
+  }
+}
