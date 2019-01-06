@@ -16,3 +16,5 @@ For this part I added in:
 And included @babel/preset-react in presets in webpack.config.js, this is required to understand jsx
 
 added html-webpack-plugin
+
+webpack-dev-server added, webpack.dev and webpack.prod files added
