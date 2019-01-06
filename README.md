@@ -14,3 +14,5 @@ For this part I added in:
 - devDependecies: @babel/preset-react
 
 And included @babel/preset-react in presets in webpack.config.js, this is required to understand jsx
+
+added html-webpack-plugin
