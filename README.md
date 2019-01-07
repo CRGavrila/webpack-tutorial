@@ -6,3 +6,15 @@
 
 To run development mode run: npm run dev
 To run production mode run: npm run build
+
+00-react-config
+
+For this part I added in:
+- dependencies: react, react-dom and prop-types
+- devDependecies: @babel/preset-react
+
+And included @babel/preset-react in presets in webpack.config.js, this is required to understand jsx
+
+added html-webpack-plugin
+
+webpack-dev-server added, webpack.dev and webpack.prod files added
