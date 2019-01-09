@@ -18,3 +18,5 @@ And included @babel/preset-react in presets in webpack.config.js, this is requir
 added html-webpack-plugin
 
 webpack-dev-server added, webpack.dev and webpack.prod files added
+
+webpack-bundle-analyzer added to analyze production build, cmd: npm run build
