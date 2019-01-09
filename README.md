@@ -22,3 +22,5 @@ webpack-dev-server added, webpack.dev and webpack.prod files added
 webpack-bundle-analyzer added to analyze production build, cmd: npm run build
 
 react CDN links added, and externalized react and react-dom in webpack-config-prod
+
+to check browserslist: npx browserslist "last 2 versions, not dead, not < 2%"
