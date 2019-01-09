@@ -20,7 +20,7 @@ module.exports = {
                 'last 2 versions',
                 'not dead',
                 'not < 2%',
-                'not ie 11'
+                // 'not ie 11'
               ],
               useBuiltIns: 'entry'
             }],
@@ -28,7 +28,8 @@ module.exports = {
           ],
           plugins: [
             'react-hot-loader/babel',
-            '@babel/plugin-proposal-class-properties'
+            '@babel/plugin-proposal-class-properties',
+            '@babel/plugin-syntax-dynamic-import'
           ]
         }
       },
