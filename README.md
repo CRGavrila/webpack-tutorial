@@ -27,3 +27,8 @@ to check browserslist: npx browserslist "last 2 versions, not dead, not < 2%"
 
 Asynchronously Load webpack Bundles through Code-splitting and React Suspense
 for Asynchronously we need @babel/plugin-syntax-dynamic-import to add to plugins
+
+new packages needed to test react components with jest:  npm i -D react-testing-library jest-dom
+and
+npm i -D babel-jest babel-core@bridge
+
