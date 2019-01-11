@@ -45,3 +45,10 @@ needed: .eslintrc.json, .eslintignore
 
 Check for Accessibility Issues in JSX with the jsx-a11y ESLint Plugin:
 npm i -D eslint-plugin-jsx-a11y
+
+Run Linting, Tests and Prettier in git Hooks with Husky: npm i -D husky
+"husky": {
+    "hooks": {
+      "pre-commit": "npm run lint && npm run test && ..."
+    }
+},
