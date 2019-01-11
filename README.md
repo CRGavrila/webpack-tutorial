@@ -43,3 +43,7 @@ Avoid Common JavaScript Errors with ESLint:
 added a picture how to init eslint in eslint-pic with cmds: npx eslint --init
 
 needed: .eslintrc.json, .eslintignore
+
+
+Check for Accessibility Issues in JSX with the jsx-a11y ESLint Plugin:
+npm i -D eslint-plugin-jsx-a11y
