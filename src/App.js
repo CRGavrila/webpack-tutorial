@@ -5,39 +5,39 @@ const Warning = lazy(() => import('./Warning'));
 
 class App extends Component {
   state = {
-    count: 0
+      count: 0
   };
 
   componentWillMount() {
-    console.log('this lifecycle hook should be avoided');
+      console.log('this lifecycle hook should be avoided');
   }
 
   render() {
-    // throw new Error('Boom!');
-    const { count } = this.state;
-    return (
-      <div>
-        <h1>Hello World</h1>
-        <h2 className={count > 10 ? 'warning' : null}>
+      // throw new Error('Boom!');
+      const { count } = this.state;
+      return (
+          <div>
+              <h1>Hello World</h1>
+              <h2 className={count > 10 ? 'warning' : null}>
           Count: {this.state.count}{' '}
-        </h2>
-        {count > 10 ? (
-          <Suspense fallback={null}>
-            <Warning />
-          </Suspense>
-        ) : null}
-        <button
-          onClick={() => this.setState(state => ({ count: state.count + 1 }))}
-        >
+              </h2>
+              {count > 10 ? (
+                  <Suspense fallback={null}>
+                      <Warning />
+                  </Suspense>
+              ) : null}
+              <button
+                  onClick={() => this.setState(state => ({ count: state.count + 1 }))}
+              >
           +
-        </button>
-        <button
-          onClick={() => this.setState(state => ({ count: state.count - 1 }))}
-        >
+              </button>
+              <button
+                  onClick={() => this.setState(state => ({ count: state.count - 1 }))}
+              >
           -
-        </button>
-      </div>
-    );
+              </button>
+          </div>
+      );
   }
 }
 
