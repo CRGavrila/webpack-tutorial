@@ -3,21 +3,21 @@ import PropTypes from 'prop-types';
 
 export default class DefaultErrorBoundary extends Component {
   state = {
-    isError: false
+      isError: false
   };
 
   static getDerivedStateFromError() {
-    return { isError: true };
+      return { isError: true };
   }
 
   static propTypes = {
-    children: PropTypes.node.isRequired
+      children: PropTypes.node.isRequired
   };
 
   render() {
-    const { isError } = this.state;
-    const { children } = this.props;
+      const { isError } = this.state;
+      const { children } = this.props;
 
-    return isError ? <div>Something went wrong!</div> : children;
+      return isError ? <div>Something went wrong!</div> : children;
   }
 }
