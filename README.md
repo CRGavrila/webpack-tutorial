@@ -57,3 +57,5 @@ added React.StrictMode
 
 Create an Error Boundary for a React App
 and added DefaultErrorBoundary with getDerivedStateFromError
+
+Check for Accessibility Issues in the Browser with react-axe
