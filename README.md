@@ -54,3 +54,5 @@ Run Linting, Tests and Prettier in git Hooks with Husky: npm i -D husky
       "pre-commit": "npm run lint && npm run test && ..."
     }
 },
+
+added React.StrictMode

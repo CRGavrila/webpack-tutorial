@@ -8,6 +8,10 @@ class App extends Component {
         count: 0
     };
 
+    componentWillMount() {
+        console.log('this lifecycle hook should be avoided');
+    }
+
     render() {
         const { count } = this.state;
         return (
