@@ -13,7 +13,7 @@ class App extends Component {
   }
 
   render() {
-    throw new Error('Boom!');
+    // throw new Error('Boom!');
     const { count } = this.state;
     return (
       <div>
